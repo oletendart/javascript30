@@ -47,3 +47,16 @@ team4[3] = "heee hawwww";
 console.log(team4);
 
 const team5 = Array.from(players);
+
+// now when we update it, the original one isn't changed
+
+// The same thing goes for objects, let's say we have a person object
+
+// with Objects
+const person = {
+  name: "Wes Bos",
+  age: 80
+};
+
+// and think we make a copy:
+const captain = person;
