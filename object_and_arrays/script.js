@@ -59,5 +59,9 @@ const person = {
 };
 
 // and think we make a copy:
-const captain = person;
-captain.number = 99;
+// const captain = person;
+// captain.number = 99;
+
+// how do we take a copy instead ?
+const cap2 = Object.assign({}, person, { number: 99 });
+console.log(cap2);
