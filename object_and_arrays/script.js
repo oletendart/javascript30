@@ -63,5 +63,8 @@ const person = {
 // captain.number = 99;
 
 // how do we take a copy instead ?
-const cap2 = Object.assign({}, person, { number: 99 });
+const cap2 = Object.assign({}, person, { number: 99, age: 12 });
 console.log(cap2);
+
+// we will hopefully soon see the object ...spread
+const cap3 = { ...person };
