@@ -35,4 +35,13 @@ console.log(players, team);
 
 // So, how do we fix this ? We take a copy instead !
 const team2 = players.slice();
+
+// one day
+
+// or create a new array and concat the old one in
 const team3 = [].concat(players);
+
+// or use the new ES6 Spread
+const team4 = [...players];
+team4[3] = "heee hawwww";
+console.log(team4);
