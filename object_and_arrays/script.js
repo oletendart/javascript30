@@ -82,4 +82,10 @@ const wes = {
 console.clear();
 console.log(wes);
 
+// changes are final
 const dev = Object.assign({}, wes);
+
+// changes are temporary
+const dev2 = JSON.parse(JSON.stringify(wes));
+
+// depending on the method (table method or raw data) the result is not the same
