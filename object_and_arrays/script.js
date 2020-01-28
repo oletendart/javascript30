@@ -60,3 +60,4 @@ const person = {
 
 // and think we make a copy:
 const captain = person;
+captain.number = 99;
