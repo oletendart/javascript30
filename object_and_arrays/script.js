@@ -45,3 +45,5 @@ const team3 = [].concat(players);
 const team4 = [...players];
 team4[3] = "heee hawwww";
 console.log(team4);
+
+const team5 = Array.from(players);
