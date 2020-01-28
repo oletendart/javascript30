@@ -78,3 +78,6 @@ const wes = {
     facebook: "wesbos.developer"
   }
 };
+
+console.clear();
+console.log(wes);
