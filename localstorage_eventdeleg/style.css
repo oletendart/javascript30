@@ -58,6 +58,9 @@ h2 {
 .plates input + label:before {
   content: "🏳️";
 }
+.plates input:checked + label:before {
+  content: "🍠";
+}
 .add-items {
   margin-top: 2rem;
 }
