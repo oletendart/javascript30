@@ -52,3 +52,17 @@ h2 {
   flex: 1;
   cursor: pointer;
 }
+.plates input {
+  display: none;
+}
+.plates input + label:before {
+  content: "🏳️";
+}
+.add-items {
+  margin-top: 2rem;
+}
+.add-items input {
+  padding: 1rem;
+  outline: 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
