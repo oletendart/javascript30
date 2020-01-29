@@ -3,6 +3,7 @@ html {
   background: ulr("http://wes.io/hx9M/oh-la-la.jpg") center no-repeat;
   background-size: cover;
   min-height: 100vh;
+  font-size: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,4 +14,13 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+svg {
+  fill: white;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 50%;
+  width: 20rem;
+  margin-bottom: 5rem;
 }
