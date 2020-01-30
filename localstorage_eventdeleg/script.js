@@ -15,4 +15,10 @@ function addItem(e) {
   this.reset();
 }
 
+function populateList(plates = [], platesList) {
+  platesList.innerHtml = plates.map((plate, i) => {
+    return;
+  });
+}
+
 addItems.addEventListener("submit", addItem);
