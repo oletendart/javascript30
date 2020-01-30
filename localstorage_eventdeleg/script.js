@@ -36,7 +36,3 @@ function toggleDone(e) {}
 
 addItems.addEventListener("submit", addItem);
 populateList(items, itemsList);
-
-const checkBoxes = document.querySelectorAll("input");
-
-checkBoxes.forEach(input => input.addEventListener("click", () => alert("hi")));
