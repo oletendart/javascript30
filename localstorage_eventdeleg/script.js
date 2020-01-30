@@ -13,7 +13,7 @@ function addItem(e) {
   };
   items.push(item);
   populateList(items, itemsList);
-  localStorage.setItem("items", items);
+  localStorage.setItem("items", JSON.stringify(items));
   this.reset();
 }
 
