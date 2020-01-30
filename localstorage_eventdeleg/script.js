@@ -17,12 +17,13 @@ function addItem(e) {
 }
 
 function populateList(plates = [], platesList) {
-  platesList.innerHtml = plates
+  platesList.innerHTML = plates
     .map((plate, i) => {
       return `
-    <li>
-    <label for="">${plate.text}</label>
-    </li>
+      <li>
+       
+        <label for="">${plate.text}</label>
+      </li>
     `;
     })
     .join("");
