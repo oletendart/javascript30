@@ -12,13 +12,20 @@ function addItem(e) {
     done: false
   };
   items.push(item);
+  populateList(items, itemsList);
   this.reset();
 }
 
 function populateList(plates = [], platesList) {
-  platesList.innerHtml = plates.map((plate, i) => {
-    return;
-  });
+  platesList.innerHtml = plates
+    .map((plate, i) => {
+      return `
+    <li>
+    <label for="">${plate.text}</label>
+    </li>
+    `;
+    })
+    .join("");
 }
 
 addItems.addEventListener("submit", addItem);
