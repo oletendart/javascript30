@@ -38,6 +38,7 @@ function toggleDone(e) {
   const index = el.dataset.index;
   items[index].done = !items[index].done;
   localStorage.setItem("items", JSON.stringify(items));
+  populateList(items, itemsList);
 }
 
 addItems.addEventListener("submit", addItem);
