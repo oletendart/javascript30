@@ -13,6 +13,7 @@ function addItem(e) {
   };
   items.push(item);
   populateList(items, itemsList);
+  localStorage.setItem("items", items);
   this.reset();
 }
 
