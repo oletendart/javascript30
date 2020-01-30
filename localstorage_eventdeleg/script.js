@@ -35,4 +35,6 @@ function populateList(plates = [], platesList) {
 function toggleDone(e) {}
 
 addItems.addEventListener("submit", addItem);
+itemsList.addEventListener("click", toggleDone);
+
 populateList(items, itemsList);
