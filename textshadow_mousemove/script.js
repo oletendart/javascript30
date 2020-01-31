@@ -2,7 +2,7 @@
 
 const hero = document.querySelector(".hero");
 const text = hero.querySelector("h1");
-const walk = 100; // 100px
+const walk = 500; // 100px
 
 function shadow(e) {
   const { offsetWidth: width, offsetHeight: height } = hero;
