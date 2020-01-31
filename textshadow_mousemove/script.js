@@ -13,8 +13,10 @@ function shadow(e) {
     y = y + e.target.offsetTop;
   }
 
-  const xWalk = Match.round((x / width) * walk - walk / 2);
-  const yWalk = Match.round((y / width) * walk - walk / 2);
+  const xWalk = Math.round((x / width) * walk - walk / 2);
+  const yWalk = Math.round((y / width) * walk - walk / 2);
+
+  text.style.textShadow = `${xWalk}px ${yWalk}px 0 red`;
 }
 
 hero.addEventListener("mousemove", shadow);
