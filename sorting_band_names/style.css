@@ -14,3 +14,22 @@ a {
   color: #ffc600;
   text-decoration: none;
 }
+
+.bands {
+  list-style: inside square;
+  font-size: 2rem;
+  background: white;
+  width: 50rem;
+  margin: auto;
+  padding: 0;
+  box-shadow: 0 0 0 2rem rgba(0, 0, 0, 0.05);
+}
+
+.bands li {
+  border-bottom: 0.1rem solid #efefef;
+  padding: 2rem;
+}
+
+.bands li:last-child {
+  border-bottom: 0;
+}
