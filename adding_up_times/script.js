@@ -9,3 +9,6 @@ const seconds = timeNodes
     return mins * 60 + secs;
   })
   .reduce((total, vidSeconds) => total + vidSeconds);
+
+let secondsLeft = seconds;
+const hours = secondsLeft / 3600;
