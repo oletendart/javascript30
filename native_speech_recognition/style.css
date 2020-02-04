@@ -27,3 +27,18 @@ body {
   position: relative;
   line-height: 3rem;
 }
+
+p {
+  margin: 0 0 3rem;
+}
+
+.words:before {
+  content: "";
+  position: absolute;
+  width: 0.4rem;
+  top: 0;
+  left: 3rem;
+  bottom: 0;
+  border: 0.1rem solid;
+  border-color: transparent #efe4e4;
+}
