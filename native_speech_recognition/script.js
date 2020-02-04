@@ -23,6 +23,9 @@ recognition.addEventListener("results", e => {
     p = document.createElement("p");
     words.appendChild(p);
   }
+  if (transcript.includes("unicorn")) {
+    console.log("🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄");
+  }
   console.log(transcript);
 });
 
