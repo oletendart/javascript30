@@ -23,9 +23,6 @@ recognition.addEventListener("results", e => {
     p = document.createElement("p");
     words.appendChild(p);
   }
-  if (transcript.includes("get the weather")) {
-    console.log("Gettin the weather");
-  }
   console.log(transcript);
 });
 
