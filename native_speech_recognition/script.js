@@ -6,3 +6,5 @@ window.SpeechRecognition =
 const recognition = new SpeechRecognition();
 
 recognition.interimResults = true;
+
+let p = document.createElement("p");
