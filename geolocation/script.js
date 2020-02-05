@@ -10,6 +10,7 @@ navigator.geolocation.watchPosition(
     arrow.style.transform = `rotate(${data.coords.heading}deg)`;
   },
   err => {
-    console.error(err);
+    console.err(err);
+    alert("HEY! YOU GOTTA ALLOW THAT TO HAPPEN!!!!");
   }
 );
