@@ -33,3 +33,18 @@ body {
       hsla(35, 95%, 55%, 0) 70%
     );
 }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 2;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
