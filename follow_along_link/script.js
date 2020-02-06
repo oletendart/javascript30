@@ -9,6 +9,8 @@ document.body.append(highlight);
 function highlightLink() {
   const linkCoords = this.getBoudingClientRect();
   console.log(linkCoords);
+  highlight.style.width = `${linkCoords.width}px`;
+  highlight.style.height = `${linkCoords.height}px`;
 }
 
 triggers.forEach(a => a.addEventListener("mouseenter", highlightLink));
