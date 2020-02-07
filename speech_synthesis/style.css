@@ -120,3 +120,20 @@ h1 {
   font-family: "Pacifico", cursive;
   text-shadow: 3px 3px 0 #f3c010;
 }
+.voiceinator input,
+.voiceinator button,
+.voiceinator select,
+.voiceinator textarea {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 0;
+  font-size: 2rem;
+  background: #f7f7f7;
+  outline: 0;
+}
+
+textarea {
+  height: 20rem;
+}
