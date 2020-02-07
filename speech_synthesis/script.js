@@ -18,4 +18,8 @@ function populateVoices() {
     .join("");
 }
 
+function setVoice() {
+  console.log(this.value);
+}
+
 speechSynthesis.addEventListener("voiceschanged", populateVoices);
