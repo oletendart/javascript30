@@ -137,3 +137,19 @@ h1 {
 textarea {
   height: 20rem;
 }
+
+input[type="select"] {
+}
+
+.voiceinator button {
+  background: #ffc600;
+  border: 0;
+  width: 49%;
+  float: left;
+  font-family: "Pacifico", cursive;
+  margin-bottom: 0;
+  font-size: 2rem;
+  border-bottom: 5px solid #f3c010;
+  cursor: pointer;
+  position: relative;
+}
