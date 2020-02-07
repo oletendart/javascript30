@@ -153,3 +153,11 @@ input[type="select"] {
   cursor: pointer;
   position: relative;
 }
+
+.voiceinator button:active {
+  top: 2px;
+}
+
+.voiceinator button:nth-of-type(1) {
+  margin-right: 2%;
+}
