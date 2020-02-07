@@ -22,4 +22,10 @@ function setVoice() {
   msg.voice = voices.find(voice => voice.name === this.value);
 }
 
+function toggle() {
+  speechSynthesis.cancel();
+  speechSynthesis.speak(msg);
+}
+
 speechSynthesis.addEventListener("voiceschanged", populateVoices);
+voicesDropdown.addEventListener("change", setVoice);
