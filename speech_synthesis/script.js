@@ -32,3 +32,4 @@ function toggle(startOver = true) {
 
 speechSynthesis.addEventListener("voiceschanged", populateVoices);
 voicesDropdown.addEventListener("change", setVoice);
+options.forEach(option => option.addEventListener("change", setOption));
