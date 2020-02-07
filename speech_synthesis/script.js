@@ -20,11 +20,14 @@ function populateVoices() {
 
 function setVoice() {
   msg.voice = voices.find(voice => voice.name === this.value);
+  toggle();
 }
 
-function toggle() {
+function toggle(startOver = true) {
   speechSynthesis.cancel();
-  speechSynthesis.speak(msg);
+  if (startOver) {
+    speechSynthesis.speak(msg);
+  }
 }
 
 speechSynthesis.addEventListener("voiceschanged", populateVoices);
