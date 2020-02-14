@@ -33,3 +33,12 @@ body {
       hsla(35, 95%, 55%, 0) 70%
     );
 }
+h2 {
+  margin-top: 0;
+  padding-top: 0.8rem;
+}
+
+nav {
+  position: relative;
+  perspective: 600px;
+}
