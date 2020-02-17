@@ -7,3 +7,7 @@ const nav = document.querySelector(".top");
 function handleEnter() {}
 
 function handleLeave() {}
+
+triggers.forEach(trigger =>
+  trigger.addEventListener("mouseenter", handleEnter)
+);
