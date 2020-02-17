@@ -6,9 +6,7 @@ const nav = document.querySelector(".top");
 
 function handleEnter() {
   this.classLit.add("trigger-enter");
-  setTimeout(() => {
-    this.classList.add("trigger-enter-active");
-  }, 150);
+  setTimeout(() => this.classList.add("trigger-enter-active"), 150);
 }
 
 function handleLeave() {
