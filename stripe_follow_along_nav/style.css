@@ -139,3 +139,25 @@ nav ul {
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
+.dropdown a {
+  text-decoration: none;
+  color: #ffc600;
+}
+
+a.button {
+  background: black;
+  display: block;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+.button[href*="twitter"] {
+  background: #019fe9;
+}
+.button[href*="facebook"] {
+  background: #3b5998;
+}
+.button[href*="courses"] {
+  background: #ffc600;
+}
