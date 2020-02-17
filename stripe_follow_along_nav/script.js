@@ -5,12 +5,13 @@ const background = document.querySelector(".dropdownBackground");
 const nav = document.querySelector(".top");
 
 function handleEnter() {
-  this.classLit.add("trigger-enter");
+  this.classList.add("trigger-enter");
   setTimeout(() => this.classList.add("trigger-enter-active"), 150);
   background.classList.add("open");
 
   const dropdown = this.querySelector(".dropdown");
-  console.log(dropdown);
+  const dropdownCoords = dropdown.getBoundingClientRect();
+  console.log(dropdownCoords);
 }
 
 function handleLeave() {
