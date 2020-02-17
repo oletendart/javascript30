@@ -8,6 +8,9 @@ function handleEnter() {
   this.classLit.add("trigger-enter");
   setTimeout(() => this.classList.add("trigger-enter-active"), 150);
   background.classList.add("open");
+
+  const dropdown = this.querySelector(".dropdown");
+  console.log(dropdown);
 }
 
 function handleLeave() {
