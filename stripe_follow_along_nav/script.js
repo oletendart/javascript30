@@ -11,7 +11,9 @@ function handleEnter() {
 
   const dropdown = this.querySelector(".dropdown");
   const dropdownCoords = dropdown.getBoundingClientRect();
-  console.log(dropdownCoords);
+  const navCoords = nav.getBoundingClientRect();
+
+  const coords = {};
 }
 
 function handleLeave() {
