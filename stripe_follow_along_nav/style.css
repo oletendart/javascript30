@@ -103,3 +103,16 @@ nav ul {
   justify-content: center;
   opacity: 0;
 }
+
+.dropdownBackground.open {
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: white;
+  transform: translateY(-50%) rotate(45deg);
+}
