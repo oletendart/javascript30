@@ -13,7 +13,13 @@ function handleEnter() {
   const dropdownCoords = dropdown.getBoundingClientRect();
   const navCoords = nav.getBoundingClientRect();
 
-  const coords = {};
+  const coords = {
+    height: dropdownCoords.height,
+    width: dropdownCoords.width
+  };
+
+  background.style.setProperty("width", `${coords.width}px`);
+  background.style.setProperty("height", `${coords.height}px`);
 }
 
 function handleLeave() {
