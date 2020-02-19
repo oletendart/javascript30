@@ -5,7 +5,16 @@ let isDown = false;
 let startX;
 let scrollLeft;
 
-slider.addEventListener("mousedown", () => {});
-slider.addEventListener("mouseleave", () => {});
-slider.addEventListener("mouseup", () => {});
-slider.addEventListener("mousemove", () => {});
+slider.addEventListener("mousedown", () => {
+  isDown = true;
+});
+slider.addEventListener("mouseleave", () => {
+  isDown = false;
+});
+slider.addEventListener("mouseup", () => {
+  isDown = false;
+});
+slider.addEventListener("mousemove", () => {
+  console.log(isDown);
+  console.log("Do Work");
+});
