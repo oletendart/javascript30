@@ -21,4 +21,5 @@ slider.addEventListener("mouseup", () => {
 slider.addEventListener("mousemove", () => {
   if (!isDown) return; // stop the fn from running
   console.count(isDown);
+  console.log(startX);
 });
